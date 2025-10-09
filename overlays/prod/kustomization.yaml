@@ -13,11 +13,4 @@ patches:
     patch: |
       - op: replace
         path: /spec/replicas
-        value: 4
-  - target:
-      kind: Service
-      name: nginx-service
-    patch: |
-      - op: replace
-        path: /spec/type
-        value: LoadBalancer
+        value: 5
